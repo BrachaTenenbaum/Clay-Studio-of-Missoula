@@ -90,7 +90,7 @@ File: Layout CSS
 
 #footer .title{margin:0 0 50px 0; padding:0; font-size:1.2rem;}
 
-#footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
+#footer .linklist li{display:inline-block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
 #footer .linklist li:last-child{margin:0; padding:0; border:none;}
 #footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
 #footer .linklist li, #footer .linklist li::after{clear:both;}
@@ -207,28 +207,26 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#EAEAEA; background-color:#272421;}
-a{color:#FF8F2B;}
+a{color:#195FE0;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
-input:focus, textarea:focus, *:required:focus{border-color:#FF8F2B;}
+input:focus, textarea:focus, *:required:focus{border-color:#195FE0;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 .overlay.coloured::after{color:inherit; background-color:rgba(75,70,65,.8);/* #4B4641 */}
 
 .element{border-color:#D7D7D7;}
-.element figure figcaption .btn:hover{color:#FF8F2B; background-color:#FFFFFF; border-color:#FF8F2B #FFFFFF #FFFFFF #FF8F2B;}
+.element figure figcaption .btn:hover{color:#195FE0; background-color:#FFFFFF; border-color:#195FE0 #FFFFFF #FFFFFF #195FE0;}
 .element .excerpt .heading a{color:inherit;}
-.element:hover .excerpt .heading a{color:#FF8F2B;}
+.element:hover .excerpt .heading a{color:#195FE0;}
 .element .excerpt time{color:#EAEAEA; background-color:#272421;}
 /* Month name colour pre-set + the choice of adding specific header colours for different months (3 provided as examples) */
 .element .excerpt time strong{color:#FFFFFF; background-color:#3C3733;}
-.element .excerpt time[data-title*="April"] strong{background-color:#55DEA8;}/*Green*/
-.element .excerpt time[data-title*="May"] strong{background-color:#FF7659;}/*Orange*/
-.element .excerpt time[data-title*="June"] strong{background-color:#9771BD;}/*Purple*/
+.element .excerpt time[data-title*="September"] strong{background-color:#A03422;}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#FF8F2B; border-color:#FF8F2B;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#195FE0; border-color:#195FE0;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 
@@ -244,8 +242,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#FF8F2B;}
 
 /* Top Bar */
 #topbar input, #topbar button{color:#FFFFFF; background-color:#4B4641; border-color:#272421;}
-#topbar input:focus{border-color:#FF8F2B;}
-#topbar button{color:#FF8F2B;}
+#topbar input:focus{border-color:#195FE0;}
+#topbar button{color:#195FE0;}
 
 
 /* Header */
@@ -258,26 +256,26 @@ input:focus, textarea:focus, *:required:focus{border-color:#FF8F2B;}
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#FF8F2B; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#195FE0; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#FF8F2B;}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#195FE0;}
 #mainav form select{color:#FFFFFF; background-color:#3C3733;}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
-#breadcrumb li:last-child a{color:#FF8F2B;}
+#breadcrumb li:last-child a{color:#195FE0;}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:#FF8F2B;}
+.container .sidebar nav a:hover{color:#195FE0;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current *{color:#FFFFFF; background-color:#FF8F2B;}
+.pagination .current *{color:#FFFFFF; background-color:#195FE0;}
 
-#backtotop{color:#FFFFFF; background-color:#FF8F2B;}
+#backtotop{color:#FFFFFF; background-color:#195FE0;}
 
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
-#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#FF8F2B;}
+#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#195FE0;}
 th{color:#FFFFFF; background-color:#373737;}
 tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
