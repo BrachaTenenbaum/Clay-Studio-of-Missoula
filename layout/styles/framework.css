@@ -31,7 +31,7 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 .bgded{background-position:bottom; background-repeat:no-repeat; background-size:cover;}
 .circle{border-radius:50%; background-clip:padding-box;}
 
-.element{display:block; width:100%; max-width:320px; padding:15px; border:1px solid; height: 417px; border-radius: 3px;}
+.element{display:block; width:100%; max-width:320px; padding:15px; border:1px solid; height: 417px; border-radius: 3px; margin: 0 auto;}
 .element figure{display:block; position:relative; margin-bottom:20px; height: 207px;}
 .element figure figcaption{position:absolute; bottom:0; right:0; opacity:0;}
 .element:hover figure figcaption{opacity:1;}
@@ -92,7 +92,7 @@ hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
 The "hoc" class is a generic class used to centre a containing element horizontally
 It should be used in conjunction with a second class or ID
 */
-.hoc{display:block; margin:0 auto;}
+.hoc{display:block; margin:0 auto; padding: 0 20px;}
 
 
 /* HTML 5 Overrides
