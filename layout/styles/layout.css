@@ -303,28 +303,71 @@ table a, #comments a{background-color:inherit;}
 
 /* Mobile Devices
 --------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:901px){
+	#mainav{display:block}
+	#mobilemainav {display:none;}
+}
+
 @media screen and (max-width:900px){
 	.hoc{max-width:90%;}
 
-	#topbar{}
-
 	#header{padding:15px 0;}
-	#header #logo{margin:0;}
+	#header #logo{margin:0;float:left;}
 
-	#mainav{}
-	#mainav ul{display:none;}
-	#mainav form{display:block;}
+	#mainav{display:none}
+	#mobilemainav {float:right;}
 
-	#breadcrumb{}
+	#mobilemainav .mobile-menu {
+		cursor: pointer;
+		color: #333;
+	}
 
+	#mobilemainav ul {
+		display: none;
+		list-style:none;
+		margin-top: 20px;
+		z-index: 99;
+		width: 100%;
+		border-radius: 0;
+		opacity: .91;
+		position: absolute;
+		float: none;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+
+	#mobilemainav ul a {
+		display: inline;
+		text-decoration:none;
+		font-size: 14px;
+		line-height: 28px;
+		font-family: ProximaNova-Regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		color: #333;
+		cursor: pointer;
+	}
+	
+	#mobilemainav ul li {
+		position: relative;
+		display: block;
+		margin: 0;
+		padding: 0px 6px;
+		text-transform: uppercase;
+		height: 36px;
+		background: #fff;
+		text-align: left;
+		padding-left: 40px;
+	}
+
+	#mobilemainav ul a li:first-child {padding: 20px;text-align: right;}
+	
 	.container{}
 	#comments input[type="reset"]{margin-top:10px;}
 	.pagination li{display:inline-block; margin:0 5px 5px 0;}
 
 	#footer{}
-
-	#copyright{}
-	#copyright p:first-of-type{margin-bottom:10px;}
 }
 
 
