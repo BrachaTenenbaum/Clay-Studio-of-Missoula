@@ -5,258 +5,158 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<script src="layout/scripts/jquery.min.js"></script> 
+<script> 
+  $(function(){
+    $("#includedContent").load("navbar.html"); 
+  });
+</script> 
 </head>
 <body id="top">
-<div class="wrapper row1">
-  <header id="header" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div id="logo" class="fl_left">
-      <h1><a href="index.html"><img src="images/demo/logo-temp.png" alt="clay-studio"></a></h1>
-      <!-- <p>The Clay Studio of Missoula</p> -->
+  <div id="includedContent"></div>
+  <div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/homepage-clay.jpeg');">
+    <div id="pageintro" class="hoc clear"> 
+      <article>
+        <h2 class="heading">The Clay Studio of Missoula</h2>
+        <p>Founded in 1998, the CSoM was established to fill a void in Missoula’s growing community—the need for a comprehensive ceramic center where community classes could be held and where serious but less established ceramicists could access studio space and professional quality equipment at a reasonable cost.</p>
+        <footer><a class="btn" href="#">Learn more</a></footer>
+      </article>
+      <!-- ################################################################################################ -->
     </div>
-    <!-- ################################################################################################ -->
-    <nav id="mainav" class="fl_right">
-      <ul class="clear">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a class="drop" href="#">Education</a>
-          <ul>
-            <li><a href="pages/gallery.html">Classes for Adults</a></li>
-            <li><a href="pages/full-width.html">Youth & Family Programming</a></li>
-            <li><a href="pages/sidebar-left.html">Special Workshops</a></li>
-            <li><a href="pages/sidebar-right.html">Private Lessons/Parties/ToursSidebar Right</a></li>
-            <li><a href="pages/basic-grid.html">Internship Program</a></li>
-            <li><a href="pages/basic-grid.html">Outreach</a></li>
-          </ul>
-        </li>
-        <li><a class="drop" href="#">Membership & Rentals</a>
-          <ul>
-            <li><a href="#">Become a Member!</a></li>
-            <li><a href="#">Studio Access Rentals</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Gallery</a>
-          <ul>
-            <li><a href="#">Current & Upcoming Exhibits</a></li>
-            <li><a href="#">Past Exhibitions</a></li>
-            <li><a href="#">Sales Gallery Information</a></li>
-            <li><a href="#">Call for Entries</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Events</a>
-          <ul>
-            <li><a href="#">Potsketch</a></li>
-            <li><a href="#">Summertime High Tea</a></li>
-            <li><a href="#">Other Events</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Residency</a>
-          <ul>
-            <li><a href="#">Residency Information & Application</a></li>
-            <li><a href="#">Current Residents</a></li>
-            <li><a href="#">Past Residents</a></li>
-          </ul>
-        </li>
-        <li><a href="#">About Us</a>
-          <ul>
-            <li><a href="#">History & Mission Statement</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Staff</a></li>
-            <li><a href="#">Facilities & Accessibility</a></li>
-            <li><a href="#">Get Involved</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-
-<!-- ################################################################################################ -->
-
-    <nav id="mobilemainav">
-      <a class="mobile-menu">Menu<i class="fa fa-chevron-down" aria-hidden="true"></i>
-      </a>
-      <ul class="menu">
-        <a class="close"><li>Close<i class="fa fa-times" aria-hidden="true"></i></li></a>      
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Education</a></li>
-        <li><a href="pages/gallery.html">Classes for Adults</a></li>
-        <li><a href="pages/full-width.html">Youth & Family Programming</a></li>
-        <li><a href="pages/sidebar-left.html">Special Workshops</a></li>
-        <li><a href="pages/sidebar-right.html">Private Lessons/Parties/ToursSidebar Right</a></li>
-        <li><a href="pages/basic-grid.html">Internship Program</a></li>
-        <li><a href="pages/basic-grid.html">Outreach</a></li>
-        <li><a class="drop" href="#">Membership & Rentals</a></li>
-        <li><a href="#">Become a Member!</a></li>
-        <li><a href="#">Studio Access Rentals</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Current & Upcoming Exhibits</a></li>
-        <li><a href="#">Past Exhibitions</a></li>
-        <li><a href="#">Sales Gallery Information</a></li>
-        <li><a href="#">Call for Entries</a></li>
-        <li><a href="#">Events</a></li>
-          <ul>
-            <li><a href="#">Potsketch</a></li>
-            <li><a href="#">Summertime High Tea</a></li>
-            <li><a href="#">Other Events</a></li>
-          </ul>
-
-        <li><a href="#">Residency</a></li>
-        <li><a href="#">Residency Information & Application</a></li>
-        <li><a href="#">Current Residents</a></li>
-        <li><a href="#">Past Residents</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">History & Mission Statement</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Staff</a></li>
-        <li><a href="#">Facilities & Accessibility</a></li>
-        <li><a href="#">Get Involved</a></li>
-      </ul>
-    </nav>
-  </header>
-</div>
-
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/homepage-clay.jpeg');">
-  <div id="pageintro" class="hoc clear"> 
-    <article>
-      <h2 class="heading">The Clay Studio of Missoula</h2>
-      <p>Founded in 1998, the CSoM was established to fill a void in Missoula’s growing community—the need for a comprehensive ceramic center where community classes could be held and where serious but less established ceramicists could access studio space and professional quality equipment at a reasonable cost.</p>
-      <footer><a class="btn" href="#">Learn more</a></footer>
-    </article>
-    <!-- ################################################################################################ -->
   </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <main class="hoc container clear"> 
-    <!-- main body -->
-    <!-- ################################################################################################ -->
-    <div class="center btmspace-50">
-      <h2 class="heading">Classes & Studio Rental Opportunities</h2>
-      <p>Our classes are a great way to explore your creative side and have a good time. We invite you to join us for the fun!</p>
-    </div>
-    <ul class="nospace group btmspace-50">
-      <li class="one_third first">
-        <article class="element">
-          <figure><img src="images/demo/gallery/kids-class.jpeg" alt=""></figure>
-          <div class="excerpt">
-            <time data-title="September"><strong>Sept</strong> <em>11</em></time>
-            <h6 class="heading"><a href="#">Daytime Open Instruction</a></h6>
-            <p>Monday afternoons: September 11-November 14, 1-4pm (10 weeks)
-              Instructor: Chris Drobnock, artist in residence</p>
-          </div>
-        </article>
-      </li>
-      <li class="one_third">
-        <article class="element">
-          <figure><img src="images/demo/gallery/adult-class1.jpeg" alt=""></figure>
-          <div class="excerpt">
-            <time data-title="September"><strong>Sept</strong> <em>11</em></time>
-            <h6 class="heading"><a href="#">Beginning Pottery</a></h6>
-            <p>Monday afternoons: September 11-November 14, 1-4pm (10 weeks)
-              Instructor: Chris Drobnock, artist in residence</p>
-          </div>
-        </article>
-      </li>
-      <li class="one_third">
-        <article class="element">
-          <figure><img src="images/demo/gallery/adult-class2.jpg" alt=""></figure>
-          <div class="excerpt">
-            <time data-title="September"><strong>Sept</strong> <em>14</em></time>
-            <h6 class="heading"><a href="#">Fall Wood Fire</a></h6>
-            <p>Tuesday evenings: September 12-November 14, 6-9pm 
-              Instructor: Scott McClellan, WoodFire Artist in Residence</p>
-          </div>
-        </article>
-      </li>
-    </ul>
-    <p class="center nospace"><a class="btn" href="#">Register</a></p>
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
-    <div class="clear"></div>
-  </main>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper bgded overlay coloured" style="background-image:url('images/demo/backgrounds/homepage-pots.jpg');">
-  <div class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <article class="center">
-      <h2 class="font-x3 uppercase">CALL FOR ENTRIES</h2>
-      <p class="btmspace-50 font-x2 capitalise">Call for Entries due November 10, 2017</p>
-      <footer>
-        <ul class="nospace inline pushright">
-          <li><a class="btn inverse" href="#">International Cup 2018</a></li>
-          <li><a class="btn" href="#">Learn More</a></li>
-        </ul>
-      </footer>
-    </article>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <section class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="group">
-      <div class="one_third first btmspace-30">
-        <h6 class="font-x3 uppercase">IN OUR GALLERY</h6>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row3">
+    <main class="hoc container clear"> 
+      <!-- main body -->
+      <!-- ################################################################################################ -->
+      <div class="center btmspace-50">
+        <h2 class="heading">Classes & Studio Rental Opportunities</h2>
+        <p>Our classes are a great way to explore your creative side and have a good time. We invite you to join us for the fun!</p>
       </div>
-      <article class="one_third btmspace-30">
-        <h6 class="uppercase font-x1"><a href="#">Crista Ann Ames: Somewhere, Nowhere.</a></h6>
-        <p class="nospace">Opening reception: September 1, 5:30-9pm
-          Continues through September 28</p>
-      </article>
-      <article class="one_third btmspace-30">
-        <h6 class="uppercase font-x1"><a href="#">UPCOMING EXHIBITIONS</a></h6>
-        <p class="nospace">October: George McCauley & Phil Mahn 
-          November: University of Montana Exhibit
-          December: Holiday Exhibit & Sale</p>
-      </article>
-    </div>
-    <!-- ################################################################################################ -->
-  </section>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div>
-  <footer id="footer" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div>
-      <ul class="nospace linklist contact">
-        <li><i class="fa fa-map-marker"></i>
-          <address>
-          Street Name &amp; Number, Town, Postcode/Zip
-          </address>
+      <ul class="nospace group btmspace-50">
+        <li class="one_third first">
+          <article class="element">
+            <figure><img src="images/demo/gallery/kids-class.jpeg" alt=""></figure>
+            <div class="excerpt">
+              <time data-title="September"><strong>Sept</strong> <em>11</em></time>
+              <h6 class="heading"><a href="#">Daytime Open Instruction</a></h6>
+              <p>Monday afternoons: September 11-November 14, 1-4pm (10 weeks)
+                Instructor: Chris Drobnock, artist in residence</p>
+            </div>
+          </article>
         </li>
-        <li><i class="fa fa-phone"></i>(406) 456 7890</li>
-        <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
+        <li class="one_third">
+          <article class="element">
+            <figure><img src="images/demo/gallery/adult-class1.jpeg" alt=""></figure>
+            <div class="excerpt">
+              <time data-title="September"><strong>Sept</strong> <em>11</em></time>
+              <h6 class="heading"><a href="#">Beginning Pottery</a></h6>
+              <p>Monday afternoons: September 11-November 14, 1-4pm (10 weeks)
+                Instructor: Chris Drobnock, artist in residence</p>
+            </div>
+          </article>
+        </li>
+        <li class="one_third">
+          <article class="element">
+            <figure><img src="images/demo/gallery/adult-class2.jpg" alt=""></figure>
+            <div class="excerpt">
+              <time data-title="September"><strong>Sept</strong> <em>14</em></time>
+              <h6 class="heading"><a href="#">Fall Wood Fire</a></h6>
+              <p>Tuesday evenings: September 12-November 14, 6-9pm 
+                Instructor: Scott McClellan, WoodFire Artist in Residence</p>
+            </div>
+          </article>
+        </li>
       </ul>
-    </div>
-    <div>
-      <h6 class="title">DONATE TO THE CLAY STUDIO</h6>
-      <a class="btn" href="#">DONATE</a>
-    </div>
-    <!-- ################################################################################################ -->
-  </footer>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row5">
-  <div id="copyright" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Clay Studio of Missoula</a></p>
-    <!-- ################################################################################################ -->
+      <p class="center nospace"><a class="btn" href="#">Register</a></p>
+      <!-- ################################################################################################ -->
+      <!-- / main body -->
+      <div class="clear"></div>
+    </main>
   </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper bgded overlay coloured" style="background-image:url('images/demo/backgrounds/homepage-pots.jpg');">
+    <div class="hoc container clear"> 
+      <!-- ################################################################################################ -->
+      <article class="center">
+        <h2 class="font-x3 uppercase">CALL FOR ENTRIES</h2>
+        <p class="btmspace-50 font-x2 capitalise">Call for Entries due November 10, 2017</p>
+        <footer>
+          <ul class="nospace inline pushright">
+            <li><a class="btn inverse" href="#">International Cup 2018</a></li>
+            <li><a class="btn" href="#">Learn More</a></li>
+          </ul>
+        </footer>
+      </article>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row3">
+    <section class="hoc container clear"> 
+      <!-- ################################################################################################ -->
+      <div class="group">
+        <div class="one_third first btmspace-30">
+          <h6 class="font-x3 uppercase">IN OUR GALLERY</h6>
+        </div>
+        <article class="one_third btmspace-30">
+          <h6 class="uppercase font-x1"><a href="#">Crista Ann Ames: Somewhere, Nowhere.</a></h6>
+          <p class="nospace">Opening reception: September 1, 5:30-9pm
+            Continues through September 28</p>
+        </article>
+        <article class="one_third btmspace-30">
+          <h6 class="uppercase font-x1"><a href="#">UPCOMING EXHIBITIONS</a></h6>
+          <p class="nospace">October: George McCauley & Phil Mahn 
+            November: University of Montana Exhibit
+            December: Holiday Exhibit & Sale</p>
+        </article>
+      </div>
+      <!-- ################################################################################################ -->
+    </section>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div>
+    <footer id="footer" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div>
+        <ul class="nospace linklist contact">
+          <li><i class="fa fa-map-marker"></i>
+            <address>
+            Street Name &amp; Number, Town, Postcode/Zip
+            </address>
+          </li>
+          <li><i class="fa fa-phone"></i>(406) 456 7890</li>
+          <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
+        </ul>
+      </div>
+      <div>
+        <h6 class="title">DONATE TO THE CLAY STUDIO</h6>
+        <a class="btn" href="#">DONATE</a>
+      </div>
+      <!-- ################################################################################################ -->
+    </footer>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row5">
+    <div id="copyright" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Clay Studio of Missoula</a></p>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
 <!-- JAVASCRIPTS -->
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
