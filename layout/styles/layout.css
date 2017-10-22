@@ -354,11 +354,21 @@ table a, #comments a{background-color:inherit;}
 		display: block;
 		margin: 0;
 		padding: 0px 6px;
-		text-transform: uppercase;
 		height: 36px;
 		background: #fff;
 		text-align: left;
 		padding-left: 40px;
+	}
+
+	#mobilemainav ul li.topnav-item {
+		text-transform: uppercase;
+		border-bottom: 1px solid #ddd;
+		border-top: 1px solid #ddd;
+	}
+
+	#mobilemainav ul li.topnav-item.no-top {
+		border-top: 0px;
+
 	}
 
 	#mobilemainav ul a li:first-child {padding: 20px;text-align: right;}
