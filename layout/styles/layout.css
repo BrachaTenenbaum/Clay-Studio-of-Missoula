@@ -86,17 +86,17 @@ File: Layout CSS
 
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
-#footer{padding:20px 0;}
+#footer{padding:20px 0; background-color: #333; color: #fff;}
 
 #footer .title{margin:0 0 50px 0; padding:0; font-size:1.2rem;}
 
-#footer .linklist li{display:inline-block; border-bottom:1px solid;}
+#footer .linklist li{display:inline-block;}
 #footer .linklist li:last-child{margin:0; padding:0; border:none;}
 #footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
 #footer .linklist li, #footer .linklist li::after{clear:both;}
 
 #footer .contact{}
-#footer .contact.linklist li, #footer .contact.linklist li:last-child{position:relative; padding-left:40px;}
+#footer .contact.linklist li, #footer .contact.linklist li:last-child{position:relative; padding-left:30px; padding-right:20px;}
 #footer .contact li *{margin:0; padding:0; line-height:1.6;}
 #footer .contact li i{display:block; position:absolute; top:0; left:0; width:30px; font-size:16px; text-align:center;}
 
