@@ -101,12 +101,6 @@ File: Layout CSS
 #footer .contact li i{display:block; position:absolute; top:0; left:0; width:30px; font-size:16px; text-align:center;}
 
 
-/* Copyright
---------------------------------------------------------------------------------------------------------------- */
-#copyright{padding:20px 0;}
-#copyright *{margin:0; padding:0;}
-
-
 /* Transition Fade
 --------------------------------------------------------------------------------------------------------------- */
 *, *::before, *::after{transition:all .3s ease-in-out;}
@@ -117,7 +111,14 @@ File: Layout CSS
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Education Pages------------------------------------------------------------------------------------------------------------ */
+.education-pages {list-style: none; padding-left: 0;text-align: right;}
+.education-intro { border-bottom: 1px solid #ddd; padding-bottom: 20px;}
+.education-intro h1 {font-size: 48px; color: #868686;}
+.grey-background {background-color: #eee; padding: 20px; margin-top: 20px;}
+.education-image { float: left; width: 30%; margin-right: 20px;}
+.class-section {margin-top: 40px;}
 
 
 /* Navigation
