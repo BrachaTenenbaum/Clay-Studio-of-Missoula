@@ -117,10 +117,10 @@ File: Layout CSS
 .education-pages li {padding: 20px 0px; border-bottom: 1px solid #ddd;}
 .education-pages li a {color:#333;}
 .education-intro { border-bottom: 1px solid #ddd; padding-bottom: 20px;}
-.education-intro h1 {font-size: 48px; color: #868686;}
-.grey-background {background-color: #eee; padding: 20px; margin-top: 20px;}
+.education-intro h1 {font-size: 48px; color: #868686; text-transform: none;}
+.education-intro h2 {font-size: 30px; color: #109391; text-transform: capitalize;}
 .education-image { float: left; width: 30%; margin-right: 20px;}
-.class-section {margin-top: 40px;}
+.section {padding: 15px;}
 
 
 /* Navigation
@@ -228,7 +228,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#195FE0;}
 .element .excerpt time strong{color:#FFFFFF; background-color:#3C3733;}
 .element .excerpt time[data-title*="September"] strong{background-color:#A03422;}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#195FE0; border-color:#195FE0;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#109391; border-color:##109391;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 
